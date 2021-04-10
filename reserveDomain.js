@@ -8,7 +8,7 @@ const reverseDomain = (arr) => {
   const name = nameSplit.toString();
 
   const result = name.replace(/,/g, ".");
-  return result;
+  return result.split("");
 };
 
 console.log(reverseDomain(array));
